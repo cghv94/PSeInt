@@ -1,0 +1,16 @@
+Proceso programa_sumar_variables // Escribmos el nombre del programa
+	Escribir "Programa que suma a y b" // Escribimos el nombre del programa
+	Escribir "" // Dejamos un escribir vació para que se vea un espacio en el programa
+	a<-0; // Variable nula para a
+	b<-0; // Variable nula para b
+	c<-0; // Variable nula para c
+	Escribir "Por favor, escribe el valor de a:"; // Escribimos la primera instrucción
+	Leer a; // Imprimimos a
+	Escribir "Por favor, escribe el valor de b:"; // Escribimos la segunda instrucción
+	Leer b; // Imprimimos b
+	Escribir "La variable a es: ", a; // Escribimos el valor de a
+	Escribir "La variable a es: ", b; // Escribimos el valor de b	
+	c<-a+b;  // Obtenemos la suma de a más b y la guardamos en c
+	Escribir "a + b es igual a ", c; // Imprimimos c
+	Escribir a, " + ", b, " es igual a ", c; // Imprimimos el resultado de otra fomrma c
+FinProceso // Finalizamos el programa
